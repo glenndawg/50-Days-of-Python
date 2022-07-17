@@ -21,3 +21,10 @@ print("The new List is: ",convert_add(list_str))
 # Question to improve code :
 # Can I return the total, and list_int
 # How else can I print the sum of the new list outside of the function?
+
+# # Option 1 : Loop and casting
+# for i in range(0, len(list_int)):
+#       list_int[i] = int(list_int[i])
+
+# Option 2 : List comprehension
+# test_list = [int(i) for i in test_list]
