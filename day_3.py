@@ -14,8 +14,6 @@ def register_check(register):
     for value in register.values():
          if value == 'yes':
              count += 1
-         else:
-             continue
     return count
 
 print(register)
