@@ -4,3 +4,6 @@ by Benjamin Bennett Alexander
 
 All Questins uplaoded suffice for a result to the challanges, and include questions as to 
 how I can improve on the code for further learning. 
+
+I have also included some alternataive methods for solving the problems as to
+understand the more efficient coding methods.
