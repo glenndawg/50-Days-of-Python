@@ -17,3 +17,5 @@ discount = round(float(input("Plese enter the discount percentage :")), 2)
 
 print(f"The disounted price is : ${my_discount(price,discount)}")
 
+# this seems rather straight forward
+
