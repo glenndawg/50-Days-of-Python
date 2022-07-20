@@ -5,19 +5,26 @@
 
 import math
 
-number = input("Please enter an integer greater than 5 :")
+while True:
+    try:
+        number = int(input("Please enter an integer greater than 5 :"))
+        if number < 5:
+            raise ValueError
+        break
+    except ValueError:
+        print("Please enter a whole number greater than or equal to 5")
 
-try:
-    number = int(number)
-except:
-    print("Error, please input a whole number")
-    quit()
-    
-test = int(number % 5)
+def divide_or_square(number): 
+    global test   
+    test = int(number % 5)
+    if test == 0:
+        answer = math.sqrt(number)
+    else:
+        answer = number % 5
+    return(answer) 
 
-if test == 0:
-    answer = math.sqrt(number)
-    print("The square root of", number, "is", answer)
+answer = divide_or_square(number)
+if (test % 5) == 0:
+    print(f"The square root of {number} is {round(answer,2)}")
 else:
-    answer = number % 5
-    print(number, "Divide by 5 has a remainder of :", answer)
+   print(f"{number} Divided by 5 has a remainder of : {answer}")
