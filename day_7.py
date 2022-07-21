@@ -19,7 +19,7 @@ def string_range(num):
     
 while True:
     try:
-        num = int(input("Please enter an integere : "))
+        num = int(input("Please enter an integer : "))
         break
     except ValueError:
         print("Please enter a whole number")
