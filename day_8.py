@@ -9,7 +9,6 @@
 numbers = [2,3,4,6,7,12]
 
 def odd_even(numbers):
-    # find odd numbers
     odd_nums = list()
     even_nums = list()
     for i in range(len(numbers)):
@@ -23,3 +22,6 @@ def odd_even(numbers):
     print(f"The answer is {max(even_nums)} - {min(odd_nums)} = {answer}")
     
 odd_even(numbers)
+
+# Works great. How do I return return muliiple value to print the
+# answer outside of the loop?
