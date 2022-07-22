@@ -12,6 +12,7 @@ def count_dots(string):
 
 print(count_dots(string))
 
+# using the count() function was the easiest
 
 # here is the list comprehension method
 # sum = [x for x in string if x == '.']

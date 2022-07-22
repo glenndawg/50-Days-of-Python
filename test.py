@@ -1,13 +1,8 @@
-string = 'h.e.l.p.'
+# total = 0
+# for abc in range(5):
+#     total = total + abc
+# print(total
 
-def count_dots(string):
-    # sum = list(filter(lambda x: x == '.', string))
-    count = string.count('.')
-    return count
-
-print(count_dots(string))
-
-
-
-
-# sixes = list(filter(lambda number: number == 6, string))
+abc = "With three words"
+stuff = abc.split()
+print(len(stuff))
