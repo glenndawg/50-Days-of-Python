@@ -10,13 +10,16 @@
 
 # ['1,000,000','2,356,9989','2,354,672','9,878,098']
 
+# Write a function called convert_numbers that will take one 
+#argument, a list of numbers above.
+
 numbers = [1000000,2356989,2354672,987098,34687654]
 print(numbers)
 
-def add_comma(numbers):
+def convert_numbers(numbers):
     return (f'{numbers:,}') # return ("{:,}".format(number)) also works
 
-new_list = [add_comma(x) for x in numbers]
+new_list = [convert_numbers(x) for x in numbers]
 print(new_list)
 
 
