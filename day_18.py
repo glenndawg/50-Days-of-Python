@@ -5,26 +5,23 @@
 # should return 37.0 as average. If you pass 12, 90 your function
 # should return 51.0 as average.
 
-from types import NoneType
-
-
-numbers = []
-number = 0
-
-while number != 9:
+while True:
     try:
-        number = float(input("Please enter any number and enter 9 when done : "))
-        numbers.append(number)
+        numbers = []
+        while True:
+            num = (int(input("Please enter any number and enter 0 when done : "))) 
+            if num != 0:
+                numbers.append(num)
+            else:
+                break
         break
     except ValueError:
         print("Please enter a valid number")
 
-print(numbers)
-
-
 def any_numbers(numbers):
     average = round((sum(numbers)/len(numbers)),1)
-    print(type(average))
     return average
 
-print(f"The average of your list is : {any_numbers(numbers)}")
+print(f"The average of {numbers} is : {any_numbers(numbers)}")
+
+# This was fun. Can I make the input and try/exccept section shorter?
