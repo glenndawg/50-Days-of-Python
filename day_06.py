@@ -12,12 +12,10 @@ def user_name(email):
 
 email = input("Please enter you email address : ")
 
-
 print(f"Your user name is : {user_name(email)}")
 
-# How so I ject the text to see if it in fact 
+# How do I check the text to see if it in fact 
 # an email address?
-
 
 # Another method, but less efficient is :
 # name = email.rpartition('@'[0])

@@ -5,7 +5,6 @@
 # TRUE, if they are not, it should return FALSE. For example, 'love' and 
 # 'evol' should return True
 
-
 string_1 = 'gelato'
 string_2 = 'letago'
 
@@ -21,7 +20,6 @@ def equal_strings(x,y):
         return False  
 
 print(equal_strings(string_1,string_2))
-
 
 # in another method, I used list comprehension to create a list of
 # True values for all that are true. If The list is as long as the string

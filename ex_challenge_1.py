@@ -22,7 +22,6 @@ def convert_numbers(numbers):
 new_list = [convert_numbers(x) for x in numbers]
 print(new_list)
 
-
 # This is easy to do woth out converting to a string.
 # num_list = [str(x) for x in numbers] will convert the list 
 # to strings, but I do not know how to add the commas to a string.

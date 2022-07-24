@@ -30,3 +30,5 @@ def your_salary(name,periods):
 print(f"Teacher: {name}")
 print(f"Periods: {periods}")
 print(f"Gross salary : {your_salary(name, periods)}")
+
+# easy enough

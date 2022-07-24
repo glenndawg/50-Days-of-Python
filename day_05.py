@@ -11,7 +11,6 @@ def my_discount(price, discount):
     dis_price = round(price - price * (discount/100), 2)
     return dis_price
 
-
 price = round(float(input("Please enter the price :")), 2)
 discount = round(float(input("Plese enter the discount percentage :")), 2)
 

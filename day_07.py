@@ -4,8 +4,6 @@
 # seperated by dots(.). For example, if you pass 6 as an argument, 
 # your functiomn should return '0.1.2.3.4.5'
 
-
-
 def string_range(num):
     string = ""
     count = 0

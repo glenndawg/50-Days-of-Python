@@ -8,7 +8,6 @@
 
 register = {'Michael':'yes','John':'no','Peter':'yes','Mary':'yes'}
 
-
 def register_check(register):
     count = 0
     for value in register.values():
@@ -18,8 +17,6 @@ def register_check(register):
 
 print(register)
 print("Nuber of students in School :", register_check(register))
-
-
 
 # This method works, but how can I be more efficient?
 # How can I do this with list comprehension?

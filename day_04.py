@@ -18,7 +18,6 @@ def only_float(a,b):
         count = 0
     return count
 
-
 print(f"The variables are a = {a} and b = {b}")
 print(f"The answer is : {only_float(a,b)}")
 

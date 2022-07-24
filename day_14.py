@@ -8,8 +8,6 @@ list = [[1,4,7,9]]
 def flat_list(list):
     new_list = []
     new_list = [x for x in list[0]]
-    # for i in range(len(list[0])):
-    #     new_list.append(list[0][i])
     return new_list
 
 print(f"The nested list is {list}")

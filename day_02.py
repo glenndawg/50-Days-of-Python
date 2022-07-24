@@ -3,7 +3,6 @@
 # argument and converts it to integers and summs the list. For Example
 # ['1','3','5'] should be converted to [1,3,5] and summed to 9.
 
-
 def convert_add(list_int):
     list_int = list(map(int, list_int))
     total = 0
@@ -13,10 +12,8 @@ def convert_add(list_int):
 
 list_str = ['1','2','3','4','5','6']
 
-
 print("Original List  :", (list_str))  
 print("The new List is: ",convert_add(list_str))
-
 
 # Question to improve code :
 # Can I return the total, and list_int
