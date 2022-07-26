@@ -21,6 +21,7 @@ def equal_strings(x,y):
 
 print(equal_strings(string_1,string_2))
 
+# Ok, the easist way is to sort forst, then check! - from answers
 # in another method, I used list comprehension to create a list of
 # True values for all that are true. If The list is as long as the string
 # then the answer is true. Fun to use list comprehension for this.

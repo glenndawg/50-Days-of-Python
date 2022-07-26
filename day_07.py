@@ -25,5 +25,8 @@ while True:
 print(string_range(num))
 
 # works great! Whats the better way ??
+# could use a simpler list comprehension
+# string = [str(x) for x in range(num)]
+# then join x = ".".join(x) - this is from the answer section
 
 

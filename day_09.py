@@ -21,4 +21,5 @@ print(f"The largest odd number in {num} is {biggest_odd(num)}")
 
 # This was fun, and a great way to learn list comprehension better.
 # can I incorporate the first list comprehension statement into the next
-# for only one ???
+# for only one ??? YES!! Convert to a string in the list comprehension
+# odd_list = [x for x in num if int(x) % 2 != 0]

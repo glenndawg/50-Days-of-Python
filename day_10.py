@@ -7,10 +7,8 @@
 
 def hide_password():
     pswd = input("Please enter your password : ")
-    new_pswd = '****'
+    new_pswd = len(pswd) * '*'
     return new_pswd
 
 print(f"Your new password is '{hide_password()}' and is 4 characters long")
 
-# Is this just a practice of defining a function without a parameter?
-# This seems to simple, like I am missing somthing here. 

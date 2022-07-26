@@ -1,7 +1,7 @@
 # DAY 12 : COUNT THE DOTS
 # Write a function called count_dots. This function takes a string
 # seperated by dots as a parameter and counts how many dots are in
-# the string. For examlpe, 'h.e.l.p.' should return 4 dots, and 'he.lp'
+# the string. For examlpe, 'h.e.l.p.' should return 4 dots, and 'he.l.p'
 # should return 2 dots.
 
 string = 'h.e.l.p.'
@@ -13,6 +13,8 @@ def count_dots(string):
 print(count_dots(string))
 
 # using the count() function was the easiest
+
+# can also split word at "." and count the length of the list - from answers
 
 # here is the list comprehension method
 # sum = [x for x in string if x == '.']

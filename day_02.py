@@ -13,7 +13,7 @@ def convert_add(list_int):
 list_str = ['1','2','3','4','5','6']
 
 print("Original List  :", (list_str))  
-print("The new List is: ",convert_add(list_str))
+print("The sum is: ",convert_add(list_str))
 
 # Question to improve code :
 # Can I return the total, and list_int

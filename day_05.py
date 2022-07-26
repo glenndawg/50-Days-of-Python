@@ -7,14 +7,15 @@
 # enters 150 as the price and 15% as the discount, your function should
 # return 127.5
 
-def my_discount(price, discount):
+def my_discount():
+    price = round(float(input("Please enter the price :")), 2)
+    discount = round(float(input("Plese enter the discount percentage :")), 2)
     dis_price = round(price - price * (discount/100), 2)
     return dis_price
 
-price = round(float(input("Please enter the price :")), 2)
-discount = round(float(input("Plese enter the discount percentage :")), 2)
 
-print(f"The disounted price is : ${my_discount(price,discount)}")
+
+print(f"The disounted price is : ${my_discount()}")
 
 # this seems rather straight forward
 

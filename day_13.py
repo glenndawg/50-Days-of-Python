@@ -20,3 +20,6 @@ def your_vat(price, vat):
     return pat
 
 print("Your price including sales tax is $ {:0.2f}" .format(your_vat(price,vat)))
+
+# I can start putting the tr/except inside the def function. 
+# try/except/else

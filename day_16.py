@@ -21,3 +21,5 @@ print(f"The sum of all the nested lists are : {sum_list(l)}")
 # This was fun and challenging. First time understanding and 
 # using recursion. Using a def function, to call itself. 
 # Very satisfying!!
+
+# From the answers - a nested for loop is way easier! Doh!
