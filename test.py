@@ -1,7 +1,9 @@
-def eq(a,b):
-    return lambda x: a*x**2 + b*x
+import itertools
+   
+# for in loop
+for i in itertools.count(5, 5):
+    if i == 35:
+        break
+    else:
+        print(i, end =" ")
 
-f = eq(5,7)
-
-print(f(12))
-    
