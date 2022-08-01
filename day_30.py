@@ -18,4 +18,4 @@ repeated_name(name)
 # or, as per the answer, the very eay away:
 # from collections import counter
 # def frequent_name(name):
-#   return max(counter(name).most common())
+#   return max(counter(name).most_common())
