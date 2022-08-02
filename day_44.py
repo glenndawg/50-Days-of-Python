@@ -24,7 +24,7 @@ def save_emails():
     with open('email_list.csv', 'w', encoding='UTF8') as file:
         writer = csv.writer(file)
         writer.writerow(fields)
-        writer.writerows([item] for item in email_list)
+        writer.writerows([item] for item in email_list) # keep from csv the chars
         file.close()
 
 def open_emails():
@@ -32,9 +32,9 @@ def open_emails():
         csv_reader = reader(obj)
         for row in csv_reader:
             print(''.join(row))
-           
-save_emails()
 
+
+save_emails()
 open_emails()
     
 
