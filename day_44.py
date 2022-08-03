@@ -33,7 +33,6 @@ def open_emails():
         for row in csv_reader:
             print(''.join(row))
 
-
 save_emails()
 open_emails()
     

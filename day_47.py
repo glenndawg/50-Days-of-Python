@@ -18,5 +18,5 @@ def read_json():
         data = json.load(file)
         return data
 
-print(save_json())
-print(read_json())
+print(save_json()) # prints initial json file
+print(read_json()) # prints json file after opening
