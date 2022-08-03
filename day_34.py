@@ -6,9 +6,12 @@
 # return 1991, 2, 200, 3, 2008 as a list of strings.
 
 file = open('python.csv','r') 
-data = file.read().split()
+data = file.read().split(' ')
+data = [i.replace(',','') for i in data]
+
 
 def just_digits(data):
+    print(data)
     num_list = []
     for word in data:
         if word.isdigit():
@@ -18,7 +21,7 @@ def just_digits(data):
 
 just_digits(data)   
 
-# This is almost exatly loke the answer, but why is it only finding one number?
+# This is almost exatly like the answer, but why is it only finding one number?
 # maybe my csv file is not correct. I tried the code in the answer also, and I also 
 # only got one number. Hmmm??
 
