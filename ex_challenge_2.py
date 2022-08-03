@@ -14,5 +14,23 @@
 # 
 # The code should run until the user inputs a valid year. Your function
 # should return the user's age in minutes. For example, if someone enters
-# 1930, as tgheir year of birth, your function should return:
-#  You are 48,355,300 minutes old.     
+# 1930, as their year of birth, your function should return:
+#  You are 48,355,300 minutes old. 
+
+from datetime import date
+
+todays_date = date.today()
+
+while True: 
+    yob = int(input("Please enter you year of birth : "))
+    if len(str(yob)) == 4 and todays_date.year >= yob >= 1900:
+        break
+    else:
+        print("Please enter a valid year")
+
+def age_in_minute(yob):
+    age = todays_date.year - yob
+    age_min = age*365*24*60
+    return (age_min)
+    
+print(f'{age_in_minute(yob):,}')    
